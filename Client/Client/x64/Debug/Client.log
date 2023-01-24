@@ -1,0 +1,33 @@
+﻿  Client.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\cweinberg\OneDrive - Microsoft\Desktop\Study\דיפנסיבי\SecureFileTransferRepo\Client\Client\Client.cpp(103,41): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\cweinberg\OneDrive - Microsoft\Desktop\Study\דיפנסיבי\SecureFileTransferRepo\Client\Client\Client.cpp(125,41): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\cweinberg\OneDrive - Microsoft\Desktop\Study\דיפנסיבי\SecureFileTransferRepo\Client\Client\Client.cpp(210,28): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  ClientSocket.cpp
+  ConfirmMessage.cpp
+  ConfirmReconnect.cpp
+C:\Users\cweinberg\OneDrive - Microsoft\Desktop\Study\דיפנסיבי\SecureFileTransferRepo\Client\Client\ConfirmReconnect.cpp(20,31): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  CorrectCRC.cpp
+  FatalError.cpp
+  FatalWrongCRC.cpp
+  FileRec.cpp
+  Main.cpp
+C:\Users\cweinberg\OneDrive - Microsoft\Desktop\Study\דיפנסיבי\SecureFileTransferRepo\Client\Client\Main.cpp(72,79): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+  PubKeyRec.cpp
+C:\Users\cweinberg\OneDrive - Microsoft\Desktop\Study\דיפנסיבי\SecureFileTransferRepo\Client\Client\PubKeyRec.cpp(18,31): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  Reconnect.cpp
+  ReconnectFail.cpp
+  RegDone.cpp
+  Registeration.cpp
+  Request.cpp
+C:\Users\cweinberg\OneDrive - Microsoft\Desktop\Study\דיפנסיבי\SecureFileTransferRepo\Client\Client\Request.cpp(10,19): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  RegFailed.cpp
+  Response.cpp
+  SendFile.cpp
+  SendPublicKey.cpp
+  StateMachine.cpp
+  Generating Code...
+  Compiling...
+  WrongCRC.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file '..\cryptopp\Win32\Output\Debug\cryptlib.lib'
